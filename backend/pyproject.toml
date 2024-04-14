@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "The backend app that provides necessary APIs to fetch chess player data from Lichess.org API"
+authors = ["Admin <admin@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.110.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
